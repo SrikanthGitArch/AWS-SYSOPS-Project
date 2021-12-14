@@ -1,0 +1,15 @@
+
+Implementing a Team Communication Solution Using Mattermost and AWS.
+
+DESCRIPTION
+
+You are a Cloud engineer working on a Team Communication Solution project for a big MNC. The client has compliance policies which do not allow them to use services managed by third parties.
+The client wants a team communication solution that can be managed and hosted on servers that are controlled by them.
+
+Steps to Perform:
+
+Implement two different subnets (one public and the other private) in a custom VPC
+Install and configure MySQL on an Ubuntu 18.04 instance on the private subnet (Hint: Use a bastion host and a NAT instance)
+Install and configure Mattermost on an Ubuntu 18.04 instance on the public subnet
+Configure the security groups to allow the ports
+Test the installation by accessing the IP of the public instance in a browser
